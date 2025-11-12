@@ -52,14 +52,6 @@ def show():
             <div class='content-text'>
             Analyse wirtschaftlicher Einflussfaktoren auf den Buchumsatz: Genre, Bewertung, Verlag und mehr.<br><br>
 
-            - Bereinigung & Auswertung von Daten der letzten 20 Jahre<br>
-
-            - Visualisierung von Zusammenhängen<br>
-
-            - Regressionsmodell zur Umsatzprognose<br>
-
-            - Handlungsempfehlungen für Verlage und Autor*innen
-
             </div>
             """,
             unsafe_allow_html=True,

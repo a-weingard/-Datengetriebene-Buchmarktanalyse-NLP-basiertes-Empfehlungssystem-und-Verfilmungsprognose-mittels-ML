@@ -5,7 +5,6 @@ st.set_page_config(page_title="Book Market", layout="wide")
 # Jetzt andere Imports
 from trans_author import AuthorRatingMapper
 import Verfilmungsprognose
-import Wirtschaftanalyse
 import empfehlung
 import start
 
@@ -20,7 +19,5 @@ if page == "Startseite":
     start.show()
 elif page == "Verfilmungsprognose":
     Verfilmungsprognose.show()
-elif page == "Wirtschaftsanalyse":
-    Wirtschaftanalyse.show()
 elif page == "Empfehlungssystem":
     empfehlung.show()
