@@ -12,12 +12,13 @@ st.sidebar.title("📘 Projekt-Navigation")
 st.sidebar.info("📚 Buchmarkt analysieren – Empfehlungen & Filmchance inklusive.")
 page = st.sidebar.radio(
     "Wähle eine Funktion:",
-    ["Startseite", "Wirtschaftsanalyse", "Empfehlungssystem", "Verfilmungsprognose"],
+    ["Startseite", "Empfehlungssystem", "Verfilmungsprognose"],
 )
 
 if page == "Startseite":
     start.show()
-elif page == "Verfilmungsprognose":
-    Verfilmungsprognose.show()
 elif page == "Empfehlungssystem":
     empfehlung.show()
+elif page == "Verfilmungsprognose":
+    Verfilmungsprognose.show()
+
