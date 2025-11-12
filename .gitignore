@@ -28,3 +28,4 @@ StreamlitAPP/__pycache__/empfehlung.cpython-313.pyc
 StreamlitAPP/__pycache__/empfehlung.cpython-313.pyc
 StreamlitAPP/__pycache__/start.cpython-313.pyc
 StreamlitAPP/__pycache__/Verfilmungsprognose.cpython-313.pyc
+*.pyc
